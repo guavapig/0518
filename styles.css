@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('img/TW-zh-20240429-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif; /* 使用 Roboto 字體 */
+}
+
+.login {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 40px; /* 增加填充 */
+    border-radius: 10px; /* 增加邊框半徑 */
+    text-align: center;
+    color: #fff;
+    width: 80%; /* 使用百分比寬度 */
+    max-width: 400px; /* 最大寬度 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* 增加陰影 */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* 增加元素之間的間距 */
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ddd; /* 增加邊框 */
+    border-radius: 5px; /* 增加邊框半徑 */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e50914; /* Netflix 紅色 */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* 平滑過渡 */
+}
+
+footer {
+    margin-top: 20px; /* 增加底部間距 */
+}
+
+footer p {
+    margin-bottom: 10px; /* 增加段落底部間距 */
+}
+
+footer button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: underline;
+}
